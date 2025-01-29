@@ -1,0 +1,40 @@
+# VSCode settings
+.vscode/
+
+# Arduino build output
+*.ino.*
+*.elf
+*.eeprom
+*.hex
+*.bin
+*.o
+*.a
+*.d
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Linux system files
+*.swp
+
+# tools
+image2cpp.py
+wav2cpp.py
+
+# build
+build/
+dist/
+
+# assets
+*.mp3
+*.mp4
+*.wav
+*.png
+*.jpeg
+
+# local lib path
+# なぜかarduinoIDEでパスを通してもビルドが通らないのでローカルにライブラリを設置
+src/
