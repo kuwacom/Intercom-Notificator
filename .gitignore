@@ -35,6 +35,9 @@ dist/
 *.png
 *.jpeg
 
+# password類の設定
+secret.h
+
 # local lib path
 # なぜかarduinoIDEでパスを通してもビルドが通らないのでローカルにライブラリを設置
 src/
