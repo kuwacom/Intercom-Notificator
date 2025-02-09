@@ -34,6 +34,7 @@ dist/
 *.wav
 *.png
 *.jpeg
+!/images/*
 
 # password類の設定
 secret.h
